@@ -11,15 +11,9 @@ namespace ArrayQuestions
         static void Main(string[] args)
         {
 
-            //  Console.WriteLine("Length: " + LengthOfInteger());
-            // Console.WriteLine(FindValue(10));
-            // Console.WriteLine(FindValueReturnIndex(10));
-            // Console.WriteLine(FindValueMoreThanOnce(12));
-            // Console.WriteLine(ReturnNumberOfTimes(4));
-            // Console.WriteLine("Index is: "+ReturnTheIndicesOfLocation(4));
-            // Console.WriteLine(SumOfArray());
-            Console.WriteLine(Mean());
-
+           
+             Console.WriteLine(FindValueMoreThanOnce(12));
+            
         }
         public static bool FindValueMoreThanOnce(int n)
         {
