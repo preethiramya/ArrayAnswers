@@ -1,0 +1,39 @@
+using System; 
+2 using System.Collections.Generic; 
+3 using System.Linq; 
+4 using System.Text; 
+5 using System.Threading.Tasks; 
+6 
+ 
+7 
+ 
+8 namespace Array_Questions 
+9 { 
+10     class Program 
+11     { 
+12         static void Main(string[] args) 
+13         { 
+14              Console.WriteLine("FindXmorethanOnceinA: "+FindXmorethanOnceinA());            
+15         } 
+16          public static bool FindXmorethanOnceinA() 
+17         { 
+18             Console.WriteLine("MorethanOnceNum: "); 
+19             int a = Convert.ToInt32(Console.ReadLine()); 
+20             int count = 0; 
+21             bool flag = true; 
+22             int[] len = new int[] { 1, 9, 9, 1, 2, 9 }; 
+23             int i = 0; 
+24             while(i <len.Length) 
+25             { 
+26                 if(len[i]==a) 
+27                 count++; 
+28                 if(count>1) 
+29                 { 
+30                     return flag; 
+31                 } 
+32                 i++; 
+33             } 
+34            return false; 
+35         } 
+36     } 
+37 } 
